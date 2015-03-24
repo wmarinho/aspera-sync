@@ -33,6 +33,12 @@ ASCP_OPTIONS="-d -k 3 -p --precalculate-job-size --file-checksum=md5"
 
 ```
 
+## Command line usage
+
+```sh
+$ sh/transfer.sh {source_path} {target_path} {max_rate}
+```
+
 ## Access jenkins interface
 
 http://ip-address:8080
