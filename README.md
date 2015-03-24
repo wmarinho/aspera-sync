@@ -18,6 +18,21 @@ $ sudo sh bin/install-ascp.sh
 $ sh bin/install-jenkins.sh
 $ sh bin/init-jenkins.sh --httpPort=8080 &
 ```
+
+## Edit conf/ascp.properties and change default parameters.  
+
+```sh
+ASPERA_SERVER=demo.asperasoft.com
+ASPERA_USER=asperaweb
+ASPERA_PASS=demoaspera
+#ASPERA_PRIVATE_KEY=$HOME/.ssh/id_rsa
+
+ASCP_MAX_RATE="-l 300M"
+
+ASCP_OPTIONS="-d -k 3 -p --precalculate-job-size --file-checksum=md5"
+
+```
+
 ## Access jenkins interface
 
 http://ip-address:8080
