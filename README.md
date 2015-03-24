@@ -1,13 +1,13 @@
 # Aspera Sync with ASCP and Jenkins
 
-This project aims to help companies automate your transfer process using [Aspera Connect Server](http://asperasoft.com/) and [Aspera Ascp Client](http://downloads.asperasoft.com/en/downloads/50). This is a simple way to transfer large files over the WAN, faster then FTP and HTTP.
+This project aims to help companies automate your transfer process using [Aspera Connect Server](http://asperasoft.com/) and [Aspera Ascp Client](http://downloads.asperasoft.com/en/downloads/50). This is a simple way to transfer large files or syncing remote folders, over the LAN/WAN, with ascp client.
 
 [Jenkis](https://jenkins-ci.org/) is very useful to schedule, manage and monitor long running transfers.
 
 Installing Aspera Sync
 --
 
-## Cloning Git repository
+## Cloning git repository
 
 ```sh
 $ cd ~/
