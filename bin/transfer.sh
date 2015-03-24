@@ -43,6 +43,7 @@ fi
 if [ "${ASPERA_PRIVATE_KEY}" ]; then
    ASCP_OPTIONS="${ASCP_OPTIONS} -i ${ASPERA_PRIVATE_KEY}"
 fi
+
 # Init custom options.
 # Usage: sh bin/trasfer.sh {source_path} {target_source} {max_rate}
 if [ "$1" ]; then
@@ -60,10 +61,11 @@ fi
 log "Syncing ${SOURCE} -->> ${TARGET}"
 
 # Create command
-CMD="ascp ${ASPERA_PRIVATE_KEY} ${ASCP_OPTIONS} ${CUSTOM_OPTIONS} ${ASCP_MAX_RATE} ${SOURCE} ${TARGET}"
+CMD="ascp ${ASCP_OPTIONS} ${CUSTOM_OPTIONS} ${ASCP_MAX_RATE} ${SOURCE} ${TARGET}"
 
 log "Running: $CMD"
-#RET=`$CMD`
+
+RET=`$CMD`
 
 if [ "$?" -ne "0" ]; then
 	log "ASCP command failed."
