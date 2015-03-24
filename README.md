@@ -1,8 +1,6 @@
 # Aspera Sync with ASCP and Jenkins
 
-This project aims to help companies automate your transfer process using [Aspera Connect Server](http://asperasoft.com/) and [Aspera Ascp Client](http://downloads.asperasoft.com/en/downloads/50). This is a simple way to transfer large files or syncing remote folders, over the LAN/WAN, with ascp client.
-
-[Jenkis](https://jenkins-ci.org/) is very useful to schedule, manage and monitor long running transfers.
+This project aims to help companies automate your transfer process using [Aspera Connect Server](http://asperasoft.com/) and [Aspera Ascp Client](http://downloads.asperasoft.com/en/downloads/50). This is a simple way to transfer large files or syncing remote folders, over the LAN/WAN, with ascp client. [Jenkins](https://jenkins-ci.org/) is very useful to schedule, manage and monitor long running transfers.
 
 Installing Aspera Sync
 --
@@ -54,4 +52,4 @@ Syncing has completed successfully!!
 
 http://ip-address:8080
 
-There is a default job configured (aspera-sync). It can be used to create custom jobs using this template. For details about how to work with jenkins, access http://jenkins-ci.org/
+There is a default job configured (aspera-sync). It can be used to create custom jobs using this template. For details about how to work with jenkins, access http://jenkins-ci.org/. 
