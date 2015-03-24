@@ -36,7 +36,7 @@ ASCP_OPTIONS="-d -k 3 -p --precalculate-job-size --file-checksum=md5"
 ## Command line usage
 
 ```sh
-$ bin/transfer.sh {source_path} {target_path} {max_rate}
+$ sh bin/transfer.sh {source_path} {target_path} {max_rate}
 ```
 
 ## Output log
