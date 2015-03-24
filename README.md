@@ -50,7 +50,7 @@ Running: ascp -d -k 3 -p --precalculate-job-size --file-checksum=md5 --file-mani
 Syncing has completed successfully!!
 ```
 
-## Access jenkins interface
+## Accessing jenkins interface
 
 http://ip-address:8080
 
