@@ -54,4 +54,4 @@ Syncing has completed successfully!!
 
 http://ip-address:8080
 
-There is a aspera-sync job configured. It can be used to create custom jobs using this template. For details, access http://jenkins-ci.org/
+There is a default job configured (aspera-sync). It can be used to create custom jobs using this template. For details about how to work with jenkins, access http://jenkins-ci.org/
