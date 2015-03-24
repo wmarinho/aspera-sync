@@ -39,6 +39,17 @@ ASCP_OPTIONS="-d -k 3 -p --precalculate-job-size --file-checksum=md5"
 $ bin/transfer.sh {source_path} {target_path} {max_rate}
 ```
 
+## Output log
+
+```sh
+$ sh bin/transfer.sh
+
+Starting transfer with asperaweb@demo.asperasoft.com  ...
+Syncing asperaweb@demo.asperasoft.com:/ -->> /home/user/
+Running: ascp -d -k 3 -p --precalculate-job-size --file-checksum=md5 --file-manifest-path=/home/user/aspera-sync/logs --file-manifest=text -l 300M asperaweb@demo.asperasoft.com:/ /home/user/
+Syncing has completed successfully!!
+```
+
 ## Access jenkins interface
 
 http://ip-address:8080
